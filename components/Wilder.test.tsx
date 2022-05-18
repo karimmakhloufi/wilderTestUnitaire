@@ -4,7 +4,7 @@ import { MockedProvider } from "@apollo/client/testing";
 
 test("wilder", () => {
   render(
-    <MockedProvider >
+    <MockedProvider>
       <Wilder
         _id="1"
         name="Johnny"
